@@ -32,7 +32,6 @@ struct InitialScreen: View {
                 Button{
                     isLinkActive = true
                 } label: {
-                    
                     Text(Strings.startToHang)
                 }
                 .buttonStyle(DefaultButtonStyle())
