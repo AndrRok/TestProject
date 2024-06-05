@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		624D30932C10D5E700A8AF77 /* TestProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624D30922C10D5E700A8AF77 /* TestProjectApp.swift */; };
-		624D30952C10D5E700A8AF77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624D30942C10D5E700A8AF77 /* ContentView.swift */; };
+		624D30952C10D5E700A8AF77 /* InitialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624D30942C10D5E700A8AF77 /* InitialScreen.swift */; };
 		624D30972C10D5E900A8AF77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 624D30962C10D5E900A8AF77 /* Assets.xcassets */; };
 		624D309A2C10D5E900A8AF77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 624D30992C10D5E900A8AF77 /* Preview Assets.xcassets */; };
+		62F3FAF82C10DD0F00F57B16 /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3FAF72C10DD0F00F57B16 /* LocalizedStrings.swift */; };
+		62F3FAFB2C10DDC500F57B16 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3FAFA2C10DDC500F57B16 /* Fonts.swift */; };
+		62F3FAFE2C10DF8800F57B16 /* UserAgreementScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3FAFD2C10DF8800F57B16 /* UserAgreementScreen.swift */; };
+		62F3FB012C10E2F500F57B16 /* PhoneInputScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3FB002C10E2F500F57B16 /* PhoneInputScreen.swift */; };
+		62F3FB032C10E78800F57B16 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3FB022C10E78800F57B16 /* ButtonStyles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		624D308F2C10D5E700A8AF77 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		624D30922C10D5E700A8AF77 /* TestProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectApp.swift; sourceTree = "<group>"; };
-		624D30942C10D5E700A8AF77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		624D30942C10D5E700A8AF77 /* InitialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScreen.swift; sourceTree = "<group>"; };
 		624D30962C10D5E900A8AF77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		624D30992C10D5E900A8AF77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62F3FAF72C10DD0F00F57B16 /* LocalizedStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
+		62F3FAFA2C10DDC500F57B16 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		62F3FAFD2C10DF8800F57B16 /* UserAgreementScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgreementScreen.swift; sourceTree = "<group>"; };
+		62F3FB002C10E2F500F57B16 /* PhoneInputScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneInputScreen.swift; sourceTree = "<group>"; };
+		62F3FB022C10E78800F57B16 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +61,10 @@
 		624D30912C10D5E700A8AF77 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				62F3FAFF2C10E2E200F57B16 /* PhoneInputScreen */,
+				62F3FAFC2C10DF6300F57B16 /* InitialScreen */,
+				62F3FAF92C10DDB000F57B16 /* Resources */,
 				624D30922C10D5E700A8AF77 /* TestProjectApp.swift */,
-				624D30942C10D5E700A8AF77 /* ContentView.swift */,
-				624D30962C10D5E900A8AF77 /* Assets.xcassets */,
 				624D30982C10D5E900A8AF77 /* Preview Content */,
 			);
 			path = TestProject;
@@ -65,6 +76,34 @@
 				624D30992C10D5E900A8AF77 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62F3FAF92C10DDB000F57B16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				62F3FAF72C10DD0F00F57B16 /* LocalizedStrings.swift */,
+				62F3FAFA2C10DDC500F57B16 /* Fonts.swift */,
+				62F3FB022C10E78800F57B16 /* ButtonStyles.swift */,
+				624D30962C10D5E900A8AF77 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		62F3FAFC2C10DF6300F57B16 /* InitialScreen */ = {
+			isa = PBXGroup;
+			children = (
+				624D30942C10D5E700A8AF77 /* InitialScreen.swift */,
+				62F3FAFD2C10DF8800F57B16 /* UserAgreementScreen.swift */,
+			);
+			path = InitialScreen;
+			sourceTree = "<group>";
+		};
+		62F3FAFF2C10E2E200F57B16 /* PhoneInputScreen */ = {
+			isa = PBXGroup;
+			children = (
+				62F3FB002C10E2F500F57B16 /* PhoneInputScreen.swift */,
+			);
+			path = PhoneInputScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				624D30952C10D5E700A8AF77 /* ContentView.swift in Sources */,
+				62F3FAFB2C10DDC500F57B16 /* Fonts.swift in Sources */,
+				624D30952C10D5E700A8AF77 /* InitialScreen.swift in Sources */,
+				62F3FAF82C10DD0F00F57B16 /* LocalizedStrings.swift in Sources */,
+				62F3FAFE2C10DF8800F57B16 /* UserAgreementScreen.swift in Sources */,
+				62F3FB032C10E78800F57B16 /* ButtonStyles.swift in Sources */,
 				624D30932C10D5E700A8AF77 /* TestProjectApp.swift in Sources */,
+				62F3FB012C10E2F500F57B16 /* PhoneInputScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +322,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +332,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AR.TestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,8 +356,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +366,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AR.TestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
