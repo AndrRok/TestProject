@@ -26,18 +26,13 @@ struct InitialScreen: View {
                     Text(Strings.userAgreement)
                         .font(.body1)
                 }
-                .tint(Color.black)
+                .tint(Color.customLabelPrimary)
                 .padding(18)
                 
-                Button{
-                    isLinkActive = true
-                } label: {
+                NavigationLink(destination: PhoneInputScreen()) {
                     Text(Strings.startToHang)
                 }
                 .buttonStyle(DefaultButtonStyle())
-                
-                NavigationLink(destination: PhoneInputScreen(),
-                               isActive: $isLinkActive) {}
             }
             .padding(24)
             .sheet(isPresented: $showBottomSheet, content: {
