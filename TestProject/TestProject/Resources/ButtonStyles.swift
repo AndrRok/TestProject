@@ -38,7 +38,7 @@ struct DefaultButtonStyle: ButtonStyle {
                 .cornerRadius(30)
                 .contentShape(Rectangle())
                 .scaleEffect(configuration.isPressed ? 0.9 : 1)
-                .opacity(isEnabled ? 1.0 : 0.7)
+                .opacity(isEnabled ? 1.0 : 0.5)
         }
         .frame(height: 46)
         .animation(.default, value: configuration.isPressed)

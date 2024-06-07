@@ -14,8 +14,11 @@ struct PhoneInputScreen: View {//пока функционал реализов�
             VStack(spacing: 8) {
                 Text(Strings.enterPhoneNumber)
                     .font(.head2)
+                    .foregroundStyle(Color.customLabelPrimary)
+                
                 Text(Strings.wellSendPinToYourNumber)
                     .font(.body2)
+                    .foregroundStyle(Color.customLabelPrimary)
             }
             .padding(.bottom, 50)
             HStack{
@@ -27,7 +30,7 @@ struct PhoneInputScreen: View {//пока функционал реализов�
                     Spacer()
                 }
                 .frame(maxWidth: 57)
-                .padding(6)
+                .padding(8)
                 .background(
                     RoundedRectangle(cornerRadius: 4)
                         .foregroundStyle(Color.customLightGray)
@@ -36,7 +39,8 @@ struct PhoneInputScreen: View {//пока функционал реализов�
                 Spacer()
                 TextField(Strings.phoneNumberPlaceHolder, text: $phoneNumber)
                     .font(.body1)
-                    .padding(6)
+                    .foregroundStyle(Color.customLabelPrimary)
+                    .padding(8)
                     .background(
                         RoundedRectangle(cornerRadius: 4)
                             .foregroundStyle(Color.customLightGray)
@@ -56,8 +60,18 @@ struct PhoneInputScreen: View {//пока функционал реализов�
             .disabled(!(phoneNumber.count == 10))//временно
         }
         .padding(24)
+        .navigationBarBackButtonHidden()
+        .toolbar {
+            ToolbarItem(placement: .topBarLeading) {
+                Button {
+                    dismiss()
+                }label: {
+                    Image(.backButton)
+                }
+            }
+        }
     }
-    
+    @Environment(\.dismiss) private var dismiss
     @State private var phoneNumber: String = .init()//временно
 }
 

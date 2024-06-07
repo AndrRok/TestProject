@@ -61,8 +61,8 @@
 		624D30912C10D5E700A8AF77 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
-				62F3FAFF2C10E2E200F57B16 /* PhoneInputScreen */,
 				62F3FAFC2C10DF6300F57B16 /* InitialScreen */,
+				62F3FAFF2C10E2E200F57B16 /* PhoneInputScreen */,
 				62F3FAF92C10DDB000F57B16 /* Resources */,
 				624D30922C10D5E700A8AF77 /* TestProjectApp.swift */,
 				624D30982C10D5E900A8AF77 /* Preview Content */,
@@ -324,7 +324,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,7 +358,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
