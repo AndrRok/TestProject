@@ -9,13 +9,14 @@ import SwiftUI
 
 struct InitialScreen: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(alignment: .center) {
                 Image(.initialScreen)
                     .imageScale(.large)
                     .padding(.vertical, 42)
                 
                 Text(Strings.initialLogo)
+                
                     .font(.head2)
                 
                 Spacer()
@@ -38,8 +39,10 @@ struct InitialScreen: View {
             .sheet(isPresented: $showBottomSheet, content: {
                 UserAgreementScreen()
             })
+            .background(Color.accentColor)
         }
     }
+    
     
     @State private var showBottomSheet: Bool = false
     @State private var isLinkActive: Bool = false

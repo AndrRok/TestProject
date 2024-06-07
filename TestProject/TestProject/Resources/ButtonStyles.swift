@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct DefaultButtonStyle: ButtonStyle {
-    @Environment(\.isEnabled) private var isEnabled
     
     init(foregroundColor: Color = Color(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)),
          backgroundColor: Color = .customPurple
@@ -46,4 +45,6 @@ struct DefaultButtonStyle: ButtonStyle {
     
     private let foregroundColor: Color
     private let backgroundColor: Color
+    @Environment(\.isEnabled) private var isEnabled
+    @Environment(\.colorScheme) private var colorScheme
 }

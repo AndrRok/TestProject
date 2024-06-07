@@ -3,6 +3,25 @@
     {
       "filename" : "Illustration.pdf",
       "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "light"
+        }
+      ],
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "Illustration 1.pdf",
+      "idiom" : "universal"
     }
   ],
   "info" : {

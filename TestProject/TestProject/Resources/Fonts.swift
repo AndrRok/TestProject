@@ -17,4 +17,6 @@ extension Font {
     static let body1: Font = .system(size: 14, weight: .semibold)
     static let body2: Font = .system(size: 14, weight: .regular)
     
+    static let metaData1: Font = .system(size: 12, weight: .regular)
+    
 }
