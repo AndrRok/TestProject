@@ -21,14 +21,11 @@ struct InitialScreen: View {
                 
                 Spacer()
                 
-                Button {
-                    showBottomSheet = true
-                } label: {
-                    Text(Strings.userAgreement)
-                        .font(.body1)
-                }
-                .tint(Color.customLabelPrimary)
-                .padding(18)
+                Text(.init(Strings.initialAcception()))
+                    .font(.agreementFont)
+                    .tint(Color.customPurple)
+                    .foregroundStyle(Color.customLightGray2)
+                    .multilineTextAlignment(.center)
                 
                 NavigationLink(destination: PhoneInputScreen()) {
                     Text(Strings.startToHang)
@@ -39,10 +36,9 @@ struct InitialScreen: View {
             .sheet(isPresented: $showBottomSheet, content: {
                 UserAgreementScreen()
             })
-            .background(Color.accentColor)
+            .background(Color.customBackground)
         }
     }
-    
     
     @State private var showBottomSheet: Bool = false
     @State private var isLinkActive: Bool = false

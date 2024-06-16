@@ -64,9 +64,6 @@ struct SearchBar: View {
                     }
             }
         }
-//        .if(height != nil, transform: { view in
-//            view.frame(height: height)
-//        })
         .padding(7)
         .background(backgroundColor)
         .cornerRadius(cornerRadius ?? 8)

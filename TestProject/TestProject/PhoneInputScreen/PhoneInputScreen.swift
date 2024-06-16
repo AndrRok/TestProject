@@ -51,11 +51,11 @@ struct PhoneInputScreen: View {//пока функционал реализов�
                 
                 Spacer()
                 
-                NavigationLink(destination: PhoneInputScreen()) {
+                NavigationLink(destination: MainView()) {
                     Text(Strings.nextStep)
                 }
                 .buttonStyle(DefaultButtonStyle())
-                .disabled(!(phoneNumber.count == 10))//временно, потом заменю на верификацию номера
+                //.disabled(!(phoneNumber.count == 10))//временно, потом заменю на верификацию номера
             }
             .padding(24)
             .navigationBarBackButtonHidden()
@@ -68,7 +68,7 @@ struct PhoneInputScreen: View {//пока функционал реализов�
                     }
                 }
             }
-            .background(Color.accentColor)
+            .background(Color.customBackground)
         }
     }
     @Environment(\.dismiss) private var dismiss

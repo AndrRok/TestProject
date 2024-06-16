@@ -5,7 +5,7 @@
 //  Created by ARMBP on 6/5/24.
 //
 
-import Foundation
+import SwiftUI
 
 
 enum Strings {
@@ -17,4 +17,8 @@ enum Strings {
     public static let nextStep = "Продолжить"
     public static let plusSevenNumber = "+7"
     public static let phoneNumberPlaceHolder = "000 000-00-00"
+    
+    static func initialAcception() -> String {
+        "Нажимая кнопку продолжить я соглашаюсь с [Политикой Конфиденциальности](ссылка) и [Условиями Использования](ссылка)"
+    }
 }
