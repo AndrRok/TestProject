@@ -24,6 +24,7 @@
 		62A0A4062C24B0E500D881B6 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A0A4052C24B0E500D881B6 /* DataService.swift */; };
 		62A0A4092C24B4A900D881B6 /* LogEntryAppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A0A4072C24B49D00D881B6 /* LogEntryAppIntent.swift */; };
 		62A0A40C2C24B9B300D881B6 /* BankConsoleLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A0A40B2C24B9B300D881B6 /* BankConsoleLogic.swift */; };
+		62A0A40F2C24BB6B00D881B6 /* FactotyConsoleSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A0A40E2C24BB6B00D881B6 /* FactotyConsoleSimulator.swift */; };
 		62CD7AD32C187C1F002BCA0B /* UserDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CD7AD22C187C1F002BCA0B /* UserDetailScreen.swift */; };
 		62E4E3F92C149BDD004A8AE0 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E4E3F82C149BDD004A8AE0 /* TabView.swift */; };
 		62E4E3FB2C14ACAA004A8AE0 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E4E3FA2C14ACAA004A8AE0 /* CustomTabView.swift */; };
@@ -81,6 +82,7 @@
 		62A0A4052C24B0E500D881B6 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		62A0A4072C24B49D00D881B6 /* LogEntryAppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogEntryAppIntent.swift; sourceTree = "<group>"; };
 		62A0A40B2C24B9B300D881B6 /* BankConsoleLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankConsoleLogic.swift; sourceTree = "<group>"; };
+		62A0A40E2C24BB6B00D881B6 /* FactotyConsoleSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactotyConsoleSimulator.swift; sourceTree = "<group>"; };
 		62CD7AD22C187C1F002BCA0B /* UserDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailScreen.swift; sourceTree = "<group>"; };
 		62E4E3F82C149BDD004A8AE0 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		62E4E3FA2C14ACAA004A8AE0 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 		624D30912C10D5E700A8AF77 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				62A0A40D2C24BB5300D881B6 /* FactorySimulation */,
 				62A0A40A2C24B99000D881B6 /* BankAccountsService */,
 				62A0A4002C24AF5200D881B6 /* TestProject.entitlements */,
 				62E4E3F82C149BDD004A8AE0 /* TabView.swift */,
@@ -213,6 +216,14 @@
 				62A0A40B2C24B9B300D881B6 /* BankConsoleLogic.swift */,
 			);
 			path = BankAccountsService;
+			sourceTree = "<group>";
+		};
+		62A0A40D2C24BB5300D881B6 /* FactorySimulation */ = {
+			isa = PBXGroup;
+			children = (
+				62A0A40E2C24BB6B00D881B6 /* FactotyConsoleSimulator.swift */,
+			);
+			path = FactorySimulation;
 			sourceTree = "<group>";
 		};
 		62CD7AD12C187C05002BCA0B /* UserDetailScreen */ = {
@@ -364,6 +375,7 @@
 				62CD7AD32C187C1F002BCA0B /* UserDetailScreen.swift in Sources */,
 				621916242C13999E00BAFB6D /* UserChatModel.swift in Sources */,
 				62F3FB032C10E78800F57B16 /* ButtonStyles.swift in Sources */,
+				62A0A40F2C24BB6B00D881B6 /* FactotyConsoleSimulator.swift in Sources */,
 				624D30932C10D5E700A8AF77 /* TestProjectApp.swift in Sources */,
 				6219161F2C1394C300BAFB6D /* SearchBar.swift in Sources */,
 				62F3FB012C10E2F500F57B16 /* PhoneInputScreen.swift in Sources */,

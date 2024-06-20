@@ -9,7 +9,7 @@
 //MARK: - Домашнее задание #4
 import Foundation
 
-class BankAccount {
+final class BankAccount {
     var balance: Double
     let accountNumber: Int
 
@@ -33,7 +33,7 @@ class BankAccount {
     }
 }
 
-class Bank {
+final class Bank {
     var accounts: [BankAccount] = .init()
 
     func addAccount(account: BankAccount) {
