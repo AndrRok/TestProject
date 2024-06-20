@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//MARK: В TestProjectApp надо раскомментить этот View
 struct ContentView: View {
     
     var body: some View {

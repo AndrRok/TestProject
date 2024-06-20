@@ -11,8 +11,8 @@ import SwiftUI
 struct TestProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            //InitialScreen()
-            ContentView()
+            InitialScreen()
+            //ContentView()
         }
     }
 }
