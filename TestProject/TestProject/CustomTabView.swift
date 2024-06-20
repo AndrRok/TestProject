@@ -7,7 +7,7 @@
 //
 //import SwiftUI
 //
-//struct CustomTabBarView<Content: View>: View {
+//struct CustomTabBarView<Content: View>: View {// пока решил оставить, вдруг таббар снова будет меняться
 //    @Binding var selection: Int
 //    var content: () -> Content
 //    

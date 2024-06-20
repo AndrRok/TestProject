@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 enum Strings {
     public static let initialLogo = "Общайтесь с друзьями\nи близкими легко"
     public static let userAgreement = "Пользовательское соглашение"

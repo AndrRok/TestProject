@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+typealias VoidClosure = () -> Void
+typealias BoolClosure = (Bool) -> Void
+
 extension View {
     func hideKeyboard() {
         let resign = #selector(UIResponder.resignFirstResponder)

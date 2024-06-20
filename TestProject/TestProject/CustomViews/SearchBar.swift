@@ -8,9 +8,6 @@
 import SwiftUI
 import Foundation
 
-typealias VoidClosure = () -> Void
-typealias BoolClosure = (Bool) -> Void
-
 struct SearchBar: View {
     let prompt: String
     var text: Binding<String>
