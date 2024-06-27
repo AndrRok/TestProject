@@ -16,7 +16,6 @@ struct InitialScreen: View {
                     .padding(.vertical, 42)
                 
                 Text(Strings.initialLogo)
-                
                     .font(.head2)
                 
                 Spacer()
@@ -32,7 +31,7 @@ struct InitialScreen: View {
                 }
                 .buttonStyle(DefaultButtonStyle())
             }
-            .padding(24)
+            .padding([.top, .horizontal], 24)
             .sheet(isPresented: $showBottomSheet, content: {
                 UserAgreementScreen()
             })

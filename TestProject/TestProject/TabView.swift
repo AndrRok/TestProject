@@ -11,6 +11,23 @@ struct MainView: View {
     
     init() {
         UITabBar.appearance().unselectedItemTintColor = UIColor(Color.customLabelPrimary)
+        
+        let image = UIImage.gradientImageWithBounds(
+            bounds: CGRect( x: 0, y: 0, width: UIScreen.main.scale, height: 8),
+            colors: [
+                UIColor.clear.cgColor,
+                UIColor.black.withAlphaComponent(0.1).cgColor
+            ]
+        )
+        
+        let appearance = UITabBarAppearance()
+        appearance.configureWithTransparentBackground()
+        appearance.backgroundColor = UIColor.white
+        
+        appearance.backgroundImage = UIImage()
+        appearance.shadowImage = image
+        
+        UITabBar.appearance().standardAppearance = appearance
     }
     
     var body: some View {

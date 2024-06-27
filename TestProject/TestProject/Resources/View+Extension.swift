@@ -25,7 +25,7 @@ extension View {
 struct CornerRotateModifier: ViewModifier {
     let amount: Double
     let anchor: UnitPoint
-
+    
     func body(content: Content) -> some View {
         content
             .rotationEffect(.degrees(amount), anchor: anchor)
@@ -39,5 +39,19 @@ extension AnyTransition {
             active: CornerRotateModifier(amount: -90, anchor: .topLeading),
             identity: CornerRotateModifier(amount: 0, anchor: .topLeading)
         )
+    }
+}
+
+extension UIImage {
+    static func gradientImageWithBounds(bounds: CGRect, colors: [CGColor]) -> UIImage {
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = bounds
+        gradientLayer.colors = colors
+        
+        UIGraphicsBeginImageContext(gradientLayer.bounds.size)
+        gradientLayer.render(in: UIGraphicsGetCurrentContext()!)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return image!
     }
 }

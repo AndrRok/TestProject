@@ -12,7 +12,20 @@
 		<key>WBWidgerExtension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>624D308E2C10D5E700A8AF77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62A0A3EA2C24893300D881B6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

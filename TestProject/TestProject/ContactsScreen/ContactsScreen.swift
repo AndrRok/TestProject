@@ -73,7 +73,7 @@ struct ContactsScreen: View {
                 hideKeyboard()
             }
         }
-        .padding(20)
+        .padding([.top, .horizontal], 20)
     }
     
     @State private var text: String = .init()

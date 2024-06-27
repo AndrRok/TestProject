@@ -57,7 +57,7 @@ struct PhoneInputScreen: View {//пока функционал реализов�
                 .buttonStyle(DefaultButtonStyle())
                 //.disabled(!(phoneNumber.count == 10))//временно, потом заменю на верификацию номера
             }
-            .padding(24)
+            .padding([.top, .horizontal], 24)
             .navigationBarBackButtonHidden()
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
