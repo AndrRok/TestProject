@@ -116,29 +116,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6219161A2C1392F100BAFB6D /* ContactsScreen */ = {
+		6219161A2C1392F100BAFB6D /* 👥ContactsScreen */ = {
 			isa = PBXGroup;
 			children = (
 				6219161B2C13930500BAFB6D /* ContactsScreen.swift */,
 				621916202C1396D800BAFB6D /* UserChatsListCell.swift */,
 			);
-			path = ContactsScreen;
+			path = "👥ContactsScreen";
 			sourceTree = "<group>";
 		};
-		6219161D2C1394B400BAFB6D /* CustomViews */ = {
+		6219161D2C1394B400BAFB6D /* 🔧CustomViews */ = {
 			isa = PBXGroup;
 			children = (
 				6219161E2C1394C300BAFB6D /* SearchBar.swift */,
 			);
-			path = CustomViews;
+			path = "🔧CustomViews";
 			sourceTree = "<group>";
 		};
-		621916222C13998800BAFB6D /* Models */ = {
+		621916222C13998800BAFB6D /* 🫙Models */ = {
 			isa = PBXGroup;
 			children = (
 				621916232C13999E00BAFB6D /* UserChatModel.swift */,
 			);
-			path = Models;
+			path = "🫙Models";
 			sourceTree = "<group>";
 		};
 		624D30862C10D5E700A8AF77 = {
@@ -164,19 +164,16 @@
 		624D30912C10D5E700A8AF77 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
-				62A0A4102C24BDDC00D881B6 /* InterpolationAndOthers */,
-				62A0A40D2C24BB5300D881B6 /* FactorySimulation */,
-				62A0A40A2C24B99000D881B6 /* BankAccountsService */,
 				62A0A4002C24AF5200D881B6 /* TestProject.entitlements */,
-				62E4E3F82C149BDD004A8AE0 /* TabView.swift */,
-				62E4E3FA2C14ACAA004A8AE0 /* CustomTabView.swift */,
-				62CD7AD12C187C05002BCA0B /* UserDetailScreen */,
-				621916222C13998800BAFB6D /* Models */,
-				6219161A2C1392F100BAFB6D /* ContactsScreen */,
-				62F3FAFC2C10DF6300F57B16 /* InitialScreen */,
-				62F3FAFF2C10E2E200F57B16 /* PhoneInputScreen */,
-				6219161D2C1394B400BAFB6D /* CustomViews */,
-				62F3FAF92C10DDB000F57B16 /* Resources */,
+				627AF5C62C2DD790000CBFEC /* 📚OtherHomeWorks */,
+				627AF5C72C2DD7B8000CBFEC /* 🗂️TabView */,
+				62F3FAFC2C10DF6300F57B16 /* 🚪InitialScreen */,
+				62F3FAFF2C10E2E200F57B16 /* ☏PhoneInputScreen */,
+				62CD7AD12C187C05002BCA0B /* 👤UserDetailScreen */,
+				621916222C13998800BAFB6D /* 🫙Models */,
+				6219161A2C1392F100BAFB6D /* 👥ContactsScreen */,
+				6219161D2C1394B400BAFB6D /* 🔧CustomViews */,
+				62F3FAF92C10DDB000F57B16 /* ⛏️Resources */,
 				624D30922C10D5E700A8AF77 /* TestProjectApp.swift */,
 				624D30982C10D5E900A8AF77 /* Preview Content */,
 			);
@@ -189,6 +186,25 @@
 				624D30992C10D5E900A8AF77 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		627AF5C62C2DD790000CBFEC /* 📚OtherHomeWorks */ = {
+			isa = PBXGroup;
+			children = (
+				62A0A40A2C24B99000D881B6 /* BankAccountsService */,
+				62A0A4102C24BDDC00D881B6 /* InterpolationAndOthers */,
+				62A0A40D2C24BB5300D881B6 /* FactorySimulation */,
+			);
+			path = "📚OtherHomeWorks";
+			sourceTree = "<group>";
+		};
+		627AF5C72C2DD7B8000CBFEC /* 🗂️TabView */ = {
+			isa = PBXGroup;
+			children = (
+				62E4E3F82C149BDD004A8AE0 /* TabView.swift */,
+				62E4E3FA2C14ACAA004A8AE0 /* CustomTabView.swift */,
+			);
+			path = "🗂️TabView";
 			sourceTree = "<group>";
 		};
 		62A0A3EC2C24893300D881B6 /* Frameworks */ = {
@@ -237,15 +253,15 @@
 			path = InterpolationAndOthers;
 			sourceTree = "<group>";
 		};
-		62CD7AD12C187C05002BCA0B /* UserDetailScreen */ = {
+		62CD7AD12C187C05002BCA0B /* 👤UserDetailScreen */ = {
 			isa = PBXGroup;
 			children = (
 				62CD7AD22C187C1F002BCA0B /* UserDetailScreen.swift */,
 			);
-			path = UserDetailScreen;
+			path = "👤UserDetailScreen";
 			sourceTree = "<group>";
 		};
-		62F3FAF92C10DDB000F57B16 /* Resources */ = {
+		62F3FAF92C10DDB000F57B16 /* ⛏️Resources */ = {
 			isa = PBXGroup;
 			children = (
 				62F3FAF72C10DD0F00F57B16 /* LocalizedStrings.swift */,
@@ -254,24 +270,24 @@
 				62F600382C1F4FFB00F616E5 /* View+Extension.swift */,
 				624D30962C10D5E900A8AF77 /* Assets.xcassets */,
 			);
-			path = Resources;
+			path = "⛏️Resources";
 			sourceTree = "<group>";
 		};
-		62F3FAFC2C10DF6300F57B16 /* InitialScreen */ = {
+		62F3FAFC2C10DF6300F57B16 /* 🚪InitialScreen */ = {
 			isa = PBXGroup;
 			children = (
 				624D30942C10D5E700A8AF77 /* InitialScreen.swift */,
 				62F3FAFD2C10DF8800F57B16 /* UserAgreementScreen.swift */,
 			);
-			path = InitialScreen;
+			path = "🚪InitialScreen";
 			sourceTree = "<group>";
 		};
-		62F3FAFF2C10E2E200F57B16 /* PhoneInputScreen */ = {
+		62F3FAFF2C10E2E200F57B16 /* ☏PhoneInputScreen */ = {
 			isa = PBXGroup;
 			children = (
 				62F3FB002C10E2F500F57B16 /* PhoneInputScreen.swift */,
 			);
-			path = PhoneInputScreen;
+			path = "☏PhoneInputScreen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

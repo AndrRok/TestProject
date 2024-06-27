@@ -15,15 +15,17 @@ struct ContactsScreen: View {
                 HStack {
                     Text("Контакты")
                         .font(.subHead1)
+                        .foregroundStyle(Color.customLabelPrimary)
                     Spacer()
                     Button {
                         //
                     } label: {
                         Image(systemName: "plus")
                             .font(.subHead1)
-                            .foregroundStyle(Color.black)
+                            .foregroundStyle(Color.customLabelPrimary)
                     }
                 }
+                .padding([.top, .horizontal], 20)
             }
             ScrollView(.vertical) {
                 if isDetail, let detaiModel {
@@ -64,18 +66,17 @@ struct ContactsScreen: View {
                                 }
                             }
                         }
-                        
                     }
                 }
                 
             }
             .scrollIndicators(.hidden)
-            .background(Color.customBackground)
+            .padding(.horizontal, 20)
             .onTapGesture {
                 hideKeyboard()
             }
         }
-        .padding([.top, .horizontal], 20)
+        .background(Color.customBackground)
     }
     
     @State private var text: String = .init()

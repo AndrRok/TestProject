@@ -30,6 +30,7 @@ struct InitialScreen: View {
                     Text(Strings.startToHang)
                 }
                 .buttonStyle(DefaultButtonStyle())
+                .padding(.bottom, 20)
             }
             .padding([.top, .horizontal], 24)
             .sheet(isPresented: $showBottomSheet, content: {

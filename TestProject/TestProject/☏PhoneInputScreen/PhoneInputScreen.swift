@@ -22,6 +22,7 @@ struct PhoneInputScreen: View {//пока функционал реализов�
                         .foregroundStyle(Color.customLabelPrimary)
                 }
                 .padding(.bottom, 50)
+                
                 HStack(){
                     HStack {
                         Image(.russianFlag)
@@ -48,6 +49,7 @@ struct PhoneInputScreen: View {//пока функционал реализов�
                         .frame(maxWidth: .infinity)
                         .keyboardType(.decimalPad)
                 }
+                //.background(Color.customLightGray)
                 
                 Spacer()
                 
@@ -55,6 +57,7 @@ struct PhoneInputScreen: View {//пока функционал реализов�
                     Text(Strings.nextStep)
                 }
                 .buttonStyle(DefaultButtonStyle())
+                .padding(.bottom, 20)
                 //.disabled(!(phoneNumber.count == 10))//временно, потом заменю на верификацию номера
             }
             .padding([.top, .horizontal], 24)
