@@ -53,7 +53,7 @@ struct ContactsScreen: View {
                                     }
                                     
                                 } label: {
-                                    VStack(alignment: .leading, spacing: 0) {
+                                    VStack(alignment: .leading, spacing: 4) {
                                         UserChatsListCell(userChat: UserChatModel(id: 0,
                                                                                   image: "russianFlag",
                                                                                   name: "Алексей",
