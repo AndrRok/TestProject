@@ -53,12 +53,14 @@ struct ContactsScreen: View {
                                     }
                                     
                                 } label: {
-                                    UserChatsListCell(userChat: UserChatModel(id: 0,
-                                                                              image: "russianFlag",
-                                                                              name: "Алексей",
-                                                                              onlineStatus: .offline))
-                                    Divider()
-                                        .hide(index == 10)
+                                    VStack(alignment: .leading, spacing: 0) {
+                                        UserChatsListCell(userChat: UserChatModel(id: 0,
+                                                                                  image: "russianFlag",
+                                                                                  name: "Алексей",
+                                                                                  onlineStatus: .offline))
+                                        Divider()
+                                            .hide(index == 10)
+                                    }
                                 }
                             }
                         }
