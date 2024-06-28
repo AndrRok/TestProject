@@ -24,7 +24,6 @@ struct MainView: View {
                 
                 Text("Еще")
                     .tag(2)
-                
             }
         }
         .navigationBarBackButtonHidden()

@@ -46,5 +46,4 @@ struct DefaultButtonStyle: ButtonStyle {
     private let foregroundColor: Color
     private let backgroundColor: Color
     @Environment(\.isEnabled) private var isEnabled
-    @Environment(\.colorScheme) private var colorScheme
 }
