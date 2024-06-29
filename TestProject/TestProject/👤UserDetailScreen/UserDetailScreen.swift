@@ -20,7 +20,7 @@ struct UserDetailScreen: View {
                 } label: {
                     HStack {
                         Image(systemName: "chevron.left")
-                        Text("Профиль")
+                        Text(Strings.profile)
                             .font(.subHead1)
                     }
                     .foregroundStyle(Color.customLabelPrimary)
@@ -36,9 +36,9 @@ struct UserDetailScreen: View {
             }
             Image(.presonDetail)
                 .padding(.init(top: 44, leading: .zero, bottom: 22, trailing: .zero))
-            Text("Имя")
+            Text(Strings.name)
                 .font(.head3)
-            Text("+7 999 999-99-99")
+            Text("+7 999 999-99-99")//mock
                 .font(.subHead3)
                 .foregroundStyle(Color.customSecondaryLabel)
                 .padding(.bottom, 40)

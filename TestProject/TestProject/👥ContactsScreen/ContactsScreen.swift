@@ -13,7 +13,7 @@ struct ContactsScreen: View {
         VStack(spacing: 20) {
             if !isDetail {
                 HStack {
-                    Text("Контакты")
+                    Text(Strings.contacts)
                         .font(.subHead1)
                         .foregroundStyle(Color.customLabelPrimary)
                     Spacer()
@@ -33,7 +33,7 @@ struct ContactsScreen: View {
                         .transition(.pivot)//кастомный переход
                 } else {
                     VStack(spacing: .zero) {
-                        SearchBar(prompt: "Search",
+                        SearchBar(prompt: Strings.search,
                                   text: $text,
                                   backgroundColor: .customLightGray,
                                   cornerRadius: 10,
@@ -48,7 +48,7 @@ struct ContactsScreen: View {
                                 Button {
                                     detaiModel =  UserChatModel(id: 0,
                                                                 image: "russianFlag",
-                                                                name: "Алексей",
+                                                                name: "Алексей",//mock
                                                                 onlineStatus: .offline)
                                     withAnimation {
                                         isDetail = true
@@ -58,7 +58,7 @@ struct ContactsScreen: View {
                                     VStack(alignment: .leading, spacing: 4) {
                                         UserChatsListCell(userChat: UserChatModel(id: 0,
                                                                                   image: "russianFlag",
-                                                                                  name: "Алексей",
+                                                                                  name: "Алексей",//mock
                                                                                   onlineStatus: .offline))
                                         Divider()
                                             .hide(index == 10)
@@ -68,7 +68,6 @@ struct ContactsScreen: View {
                         }
                     }
                 }
-                
             }
             .scrollIndicators(.hidden)
             .padding(.horizontal, 20)

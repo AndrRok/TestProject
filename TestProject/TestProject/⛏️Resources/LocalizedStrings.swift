@@ -16,6 +16,12 @@ enum Strings {
     public static let nextStep = "Продолжить"
     public static let plusSevenNumber = "+7"
     public static let phoneNumberPlaceHolder = "000 000-00-00"
+    public static let search = "Search"
+    public static let contacts = "Контакты"
+    public static let chats = "Чаты"
+    public static let more = "Ещё"
+    public static let profile = "Профиль"
+    public static let name = "Имя"
     
     static func initialAcception() -> String {
         "Нажимая кнопку продолжить я соглашаюсь с [Политикой Конфиденциальности](ссылка) и [Условиями Использования](ссылка)"

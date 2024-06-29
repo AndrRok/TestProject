@@ -23,7 +23,7 @@ struct PhoneInputScreen: View {//пока функционал реализов�
                 }
                 .padding(.bottom, 50)
                 
-                HStack(){
+                HStack{
                     HStack {
                         Image(.russianFlag)
                         Text(Strings.plusSevenNumber)
@@ -49,7 +49,6 @@ struct PhoneInputScreen: View {//пока функционал реализов�
                         .frame(maxWidth: .infinity)
                         .keyboardType(.decimalPad)
                 }
-                //.background(Color.customLightGray)
                 
                 Spacer()
                 

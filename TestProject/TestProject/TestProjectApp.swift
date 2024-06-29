@@ -12,7 +12,7 @@ struct TestProjectApp: App {
     var body: some Scene {
         WindowGroup {
             InitialScreen()
-            //ContentView()
+            //ContentView()//поменять если нужен виджет
         }
     }
 }

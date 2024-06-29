@@ -19,10 +19,10 @@ struct MainView: View {
                 ContactsScreen()
                     .tag(0)
                 
-                Text("Чаты")
+                Text(Strings.chats)
                     .tag(1)
                 
-                Text("Еще")
+                Text(Strings.more)
                     .tag(2)
             }
         }
