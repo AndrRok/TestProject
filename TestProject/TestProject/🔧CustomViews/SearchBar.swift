@@ -21,7 +21,7 @@ struct SearchBar: View {
     
     @FocusState private var isFocused: Bool
     
-    init(prompt: String = Strings.search,
+    init(prompt: String = "Поиск",
          text: Binding<String>,
          backgroundColor: Color? = Color(.secondarySystemGroupedBackground),
          cornerRadius: CGFloat? = CGFloat(8),

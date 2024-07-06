@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DefaultButtonStyle: ButtonStyle {
+struct WBButtonStyle: ButtonStyle {
     
     init(foregroundColor: Color = Color(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)),
          backgroundColor: Color = .customPurple
@@ -41,6 +41,7 @@ struct DefaultButtonStyle: ButtonStyle {
         }
         .frame(height: 46)
         .animation(.default, value: configuration.isPressed)
+        .padding(20)
     }
     
     private let foregroundColor: Color

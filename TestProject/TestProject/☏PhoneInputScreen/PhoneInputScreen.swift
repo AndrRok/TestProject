@@ -8,16 +8,19 @@
 import SwiftUI
 
 struct PhoneInputScreen: View {//пока функционал реализован не до конца
+    
+    @State private var phoneNumber: String = .init()//временно
+    
     var body: some View {
         NavigationStack {
             VStack {
                 Spacer()
                 VStack(spacing: 8) {
-                    Text(Strings.enterPhoneNumber)
+                    Text("Введите номер телефона")
                         .font(.head2)
                         .foregroundStyle(Color.customLabelPrimary)
                     
-                    Text(Strings.wellSendPinToYourNumber)
+                    Text("Мы вышлем код подтверждения на указаный номер")
                         .font(.body2)
                         .foregroundStyle(Color.customLabelPrimary)
                 }
@@ -26,7 +29,7 @@ struct PhoneInputScreen: View {//пока функционал реализов�
                 HStack{
                     HStack {
                         Image(.russianFlag)
-                        Text(Strings.plusSevenNumber)
+                        Text("+7")
                             .font(.body1)
                             .foregroundStyle(Color.customSecondaryLabel)
                             .lineLimit(1)
@@ -38,7 +41,7 @@ struct PhoneInputScreen: View {//пока функционал реализов�
                     )
                     
                     Spacer()
-                    TextField(Strings.phoneNumberPlaceHolder, text: $phoneNumber)
+                    TextField("000 000-00-00", text: $phoneNumber)
                         .font(.body1)
                         .foregroundStyle(Color.customLabelPrimary)
                         .padding(8)
@@ -53,9 +56,9 @@ struct PhoneInputScreen: View {//пока функционал реализов�
                 Spacer()
                 
                 NavigationLink(destination: MainView()) {
-                    Text(Strings.nextStep)
+                    Text("Продолжить")
                 }
-                .buttonStyle(DefaultButtonStyle())
+                .buttonStyle(WBButtonStyle())
                 .padding(.bottom, 20)
                 //.disabled(!(phoneNumber.count == 10))//временно, потом заменю на верификацию номера
             }
@@ -74,7 +77,6 @@ struct PhoneInputScreen: View {//пока функционал реализов�
         }
     }
     @Environment(\.dismiss) private var dismiss
-    @State private var phoneNumber: String = .init()//временно
 }
 
 #Preview {

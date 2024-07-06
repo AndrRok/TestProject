@@ -13,7 +13,7 @@ struct ContactsScreen: View {
         VStack(spacing: 20) {
             if !isDetail {
                 HStack {
-                    Text(Strings.contacts)
+                    Text("Контакты")
                         .font(.subHead1)
                         .foregroundStyle(Color.customLabelPrimary)
                     Spacer()
@@ -29,11 +29,11 @@ struct ContactsScreen: View {
             }
             ScrollView(.vertical) {
                 if isDetail, let detaiModel {
-                    UserDetailScreen(userModel: detaiModel, isDetail: $isDetail)
+                    UserDetailScreen(userModel: detaiModel, isDetail: $isDetail, isEditing: .constant(true))
                         .transition(.pivot)//кастомный переход
                 } else {
                     VStack(spacing: .zero) {
-                        SearchBar(prompt: Strings.search,
+                        SearchBar(prompt: "Search",
                                   text: $text,
                                   backgroundColor: .customLightGray,
                                   cornerRadius: 10,
@@ -70,7 +70,6 @@ struct ContactsScreen: View {
                 }
             }
             .scrollIndicators(.hidden)
-            .padding(.horizontal, 20)
             .onTapGesture {
                 hideKeyboard()
             }
