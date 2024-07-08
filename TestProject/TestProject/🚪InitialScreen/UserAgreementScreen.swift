@@ -9,7 +9,7 @@ import SwiftUI
 
 struct UserAgreementScreen: View {
     var body: some View {
-        Text(Strings.userAgreement)
+        Text("Пользовательское соглашение")
     }
 }
 

@@ -11,8 +11,9 @@ import SwiftUI
 struct TestProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            InitialScreen()
+            //InitialScreen()
             //ContentView()//поменять если нужен виджет
+            InfiniteScrollView()//если нужен бесконечный скролл
         }
     }
 }

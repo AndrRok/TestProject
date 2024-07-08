@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct InitialScreen: View {
+    
+    @State private var showBottomSheet: Bool = false
+    @State private var isLinkActive: Bool = false
+    
     var body: some View {
         NavigationStack {
             VStack(alignment: .center) {
@@ -15,21 +19,21 @@ struct InitialScreen: View {
                     .imageScale(.large)
                     .padding(.vertical, 42)
                 
-                Text(Strings.initialLogo)
+                Text("Общайтесь с друзьями\nи близкими легко")
                     .font(.head2)
                 
                 Spacer()
                 
-                Text(.init(Strings.initialAcception()))
+                Text(.init("agreementLinks"))
                     .font(.agreementFont)
                     .tint(Color.customPurple)
                     .foregroundStyle(Color.customLightGray2)
                     .multilineTextAlignment(.center)
                 
                 NavigationLink(destination: PhoneInputScreen()) {
-                    Text(Strings.startToHang)
+                    Text("Начать общаться")
                 }
-                .buttonStyle(DefaultButtonStyle())
+                .buttonStyle(WBButtonStyle())
                 .padding(.bottom, 20)
             }
             .padding([.top, .horizontal], 24)
@@ -39,10 +43,6 @@ struct InitialScreen: View {
             .background(Color.customBackground)
         }
     }
-    
-    @State private var showBottomSheet: Bool = false
-    @State private var isLinkActive: Bool = false
-    
 }
 
 #Preview {
