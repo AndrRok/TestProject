@@ -30,6 +30,21 @@
         }
       }
     },
+    "InfiniteScroll" : {
+
+    },
+    "MainWB" : {
+
+    },
+    "Mode" : {
+
+    },
+    "Please Choose The mode, it will be permanent until app restart" : {
+
+    },
+    "Widget" : {
+
+    },
     "Введите номер телефона" : {
       "localizations" : {
         "en" : {
