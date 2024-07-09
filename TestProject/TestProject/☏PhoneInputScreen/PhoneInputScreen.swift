@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 struct PhoneInputScreen: View {//пока функционал реализован не до конца
     
@@ -51,11 +52,21 @@ struct PhoneInputScreen: View {//пока функционал реализов�
                         )
                         .frame(maxWidth: .infinity)
                         .keyboardType(.decimalPad)
+                        .onReceive(Just(phoneNumber)) { newValue in//удаление лишнил символов
+                            let filtered = newValue.filter { "0123456789".contains($0) }
+                            if filtered != newValue {
+                                self.phoneNumber = filtered
+                            }
+                            if newValue.count >= 11 {
+                                phoneNumber.removeLast()
+                                hideKeyboard()
+                            }
+                        }
                 }
                 
                 Spacer()
                 
-                NavigationLink(destination: MainView()) {
+                NavigationLink(destination: PinCodeView(phone: phoneNumber)) {
                     Text("Продолжить")
                 }
                 .buttonStyle(WBButtonStyle())
