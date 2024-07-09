@@ -29,7 +29,7 @@ struct TestProjectApp: App {
                 case .none:
                     Picker("Mode", selection: $appMode) {
                         Text("MainWB").tag(HWCases.mainWB)
-                        Text("Widget").tag(HWCases.widget)
+                        Text("Interpolation").tag(HWCases.widget)
                         Text("InfiniteScroll").tag(HWCases.infiniteScroll)
                         Text("Please Choose The mode, it will be permanent until app restart").tag(HWCases.none)
                     }
