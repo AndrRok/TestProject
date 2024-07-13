@@ -32,6 +32,10 @@
 		62A0A40F2C24BB6B00D881B6 /* FactotyConsoleSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A0A40E2C24BB6B00D881B6 /* FactotyConsoleSimulator.swift */; };
 		62A0A4122C24BDFD00D881B6 /* InterpolationAndOthers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A0A4112C24BDFD00D881B6 /* InterpolationAndOthers.swift */; };
 		62CD7AD32C187C1F002BCA0B /* UserDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CD7AD22C187C1F002BCA0B /* UserDetailScreen.swift */; };
+		62D5266C2C42AB16000EB77D /* HW12_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D5266B2C42AB16000EB77D /* HW12_1.swift */; };
+		62D5266E2C42AB3F000EB77D /* HW12_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D5266D2C42AB3F000EB77D /* HW12_2.swift */; };
+		62D526702C42AB48000EB77D /* HW12_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D5266F2C42AB48000EB77D /* HW12_3.swift */; };
+		62D526722C42AB56000EB77D /* HW12_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D526712C42AB56000EB77D /* HW12_4.swift */; };
 		62E4E3F92C149BDD004A8AE0 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E4E3F82C149BDD004A8AE0 /* TabView.swift */; };
 		62E4E3FB2C14ACAA004A8AE0 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E4E3FA2C14ACAA004A8AE0 /* CustomTabView.swift */; };
 		62F3FAFB2C10DDC500F57B16 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3FAFA2C10DDC500F57B16 /* Fonts.swift */; };
@@ -95,6 +99,10 @@
 		62A0A40E2C24BB6B00D881B6 /* FactotyConsoleSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactotyConsoleSimulator.swift; sourceTree = "<group>"; };
 		62A0A4112C24BDFD00D881B6 /* InterpolationAndOthers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolationAndOthers.swift; sourceTree = "<group>"; };
 		62CD7AD22C187C1F002BCA0B /* UserDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailScreen.swift; sourceTree = "<group>"; };
+		62D5266B2C42AB16000EB77D /* HW12_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW12_1.swift; sourceTree = "<group>"; };
+		62D5266D2C42AB3F000EB77D /* HW12_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW12_2.swift; sourceTree = "<group>"; };
+		62D5266F2C42AB48000EB77D /* HW12_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW12_3.swift; sourceTree = "<group>"; };
+		62D526712C42AB56000EB77D /* HW12_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW12_4.swift; sourceTree = "<group>"; };
 		62E4E3F82C149BDD004A8AE0 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		62E4E3FA2C14ACAA004A8AE0 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		62F3FAFA2C10DDC500F57B16 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
@@ -210,6 +218,7 @@
 		627AF5C62C2DD790000CBFEC /* 📚OtherHomeWorks */ = {
 			isa = PBXGroup;
 			children = (
+				62D5266A2C42AB0C000EB77D /* HW12 */,
 				62A0A40A2C24B99000D881B6 /* BankAccountsService */,
 				62A0A4102C24BDDC00D881B6 /* InterpolationAndOthers */,
 				62A0A40D2C24BB5300D881B6 /* FactorySimulation */,
@@ -279,6 +288,17 @@
 				62CD7AD22C187C1F002BCA0B /* UserDetailScreen.swift */,
 			);
 			path = "👤UserDetailScreen";
+			sourceTree = "<group>";
+		};
+		62D5266A2C42AB0C000EB77D /* HW12 */ = {
+			isa = PBXGroup;
+			children = (
+				62D5266B2C42AB16000EB77D /* HW12_1.swift */,
+				62D5266D2C42AB3F000EB77D /* HW12_2.swift */,
+				62D5266F2C42AB48000EB77D /* HW12_3.swift */,
+				62D526712C42AB56000EB77D /* HW12_4.swift */,
+			);
+			path = HW12;
 			sourceTree = "<group>";
 		};
 		62F3FAF92C10DDB000F57B16 /* ⛏️Resources */ = {
@@ -420,6 +440,7 @@
 				62E4E3F92C149BDD004A8AE0 /* TabView.swift in Sources */,
 				621916212C1396D800BAFB6D /* UserChatsListCell.swift in Sources */,
 				624D30952C10D5E700A8AF77 /* InitialScreen.swift in Sources */,
+				62D5266E2C42AB3F000EB77D /* HW12_2.swift in Sources */,
 				6213A6032C3970C7005B72B9 /* ProfileEdtitingScreen.swift in Sources */,
 				62F3FAFE2C10DF8800F57B16 /* UserAgreementScreen.swift in Sources */,
 				62CD7AD32C187C1F002BCA0B /* UserDetailScreen.swift in Sources */,
@@ -431,9 +452,12 @@
 				6213A6072C39DBDD005B72B9 /* InfiniteScrollView.swift in Sources */,
 				6219161F2C1394C300BAFB6D /* SearchBar.swift in Sources */,
 				62F3FB012C10E2F500F57B16 /* PhoneInputScreen.swift in Sources */,
+				62D526702C42AB48000EB77D /* HW12_3.swift in Sources */,
 				62A0A40C2C24B9B300D881B6 /* BankConsoleLogic.swift in Sources */,
 				62E4E3FB2C14ACAA004A8AE0 /* CustomTabView.swift in Sources */,
 				62A0A4122C24BDFD00D881B6 /* InterpolationAndOthers.swift in Sources */,
+				62D526722C42AB56000EB77D /* HW12_4.swift in Sources */,
+				62D5266C2C42AB16000EB77D /* HW12_1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
