@@ -14,12 +14,19 @@ struct PinCodeView: View {
     }
     
     private let phone: String
+    @State private var rotationAngle: Angle = .zero
     @State private var pinCode: String = .init()
     
     var body: some View {
         VStack(spacing: 24) {
             Text("Введите код")
                 .font(.system(size: 24, weight: .bold))
+                .rotationEffect(rotationAngle)
+                .onAppear {
+                    withAnimation(.smooth) {
+                        rotationAngle = .degrees(360)
+                    }
+                }
             
             Group {
                 Text("Отправили код на номер")
