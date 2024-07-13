@@ -30,6 +30,9 @@
         }
       }
     },
+    "Hello, World!" : {
+
+    },
     "InfiniteScroll" : {
 
     },
@@ -43,6 +46,9 @@
 
     },
     "Please Choose The mode, it will be permanent until app restart" : {
+
+    },
+    "Введите код" : {
 
     },
     "Введите номер телефона" : {
@@ -74,6 +80,9 @@
           }
         }
       }
+    },
+    "Запросить код повторно" : {
+
     },
     "Имя" : {
       "localizations" : {
@@ -124,6 +133,9 @@
           }
         }
       }
+    },
+    "Отправили код на номер" : {
+
     },
     "Поиск" : {
       "extractionState" : "manual",
