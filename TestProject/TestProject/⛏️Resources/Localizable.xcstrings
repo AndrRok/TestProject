@@ -1,0 +1,203 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "+7" : {
+
+    },
+    "+7 999 999-99-99" : {
+
+    },
+    "000 000-00-00" : {
+
+    },
+    "agreementLinks" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"On tap i'am agree with [Policy](ссылка) и [and terms](ссылка)\""
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "\"Нажимая кнопку продолжить я соглашаюсь с [Политикой Конфиденциальности](ссылка) и [Условиями Использования](ссылка)\""
+          }
+        }
+      }
+    },
+    "Hello, World!" : {
+
+    },
+    "InfiniteScroll" : {
+
+    },
+    "Interpolation" : {
+
+    },
+    "MainWB" : {
+
+    },
+    "Mode" : {
+
+    },
+    "Please Choose The mode, it will be permanent until app restart" : {
+
+    },
+    "Введите код" : {
+
+    },
+    "Введите номер телефона" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter phone number"
+          }
+        }
+      }
+    },
+    "Выберите дату" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose date"
+          }
+        }
+      }
+    },
+    "Выберите язык" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose language"
+          }
+        }
+      }
+    },
+    "Запросить код повторно" : {
+
+    },
+    "Имя" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
+          }
+        }
+      }
+    },
+    "Контакты" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contacts"
+          }
+        }
+      }
+    },
+    "Мы вышлем код подтверждения на указаный номер" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We'll send verification code on your number"
+          }
+        }
+      }
+    },
+    "Начать общаться" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start to hang"
+          }
+        }
+      }
+    },
+    "Общайтесь с друзьями\nи близкими легко" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hang easy with your friends and family"
+          }
+        }
+      }
+    },
+    "Отправили код на номер" : {
+
+    },
+    "Поиск" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search"
+          }
+        }
+      }
+    },
+    "Пользовательское соглашение" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agreement"
+          }
+        }
+      }
+    },
+    "Продолжить" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next"
+          }
+        }
+      }
+    },
+    "Профиль" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile"
+          }
+        }
+      }
+    },
+    "Сохранить" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        }
+      }
+    },
+    "Чаты" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chats"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
