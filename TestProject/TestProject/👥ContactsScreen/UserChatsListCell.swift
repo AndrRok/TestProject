@@ -13,30 +13,28 @@ struct UserChatsListCell: View {
     
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
-            Image(userChat.image)
-                .resizable()
-                .frame(width: 50, height: 50)
-                .overlay(alignment: .topTrailing) {
-                    Circle()
-                        .foregroundStyle(userChat.onlineStatus == .online ? .green : .gray)
-                        .background {
-                            RoundedRectangle(cornerRadius: 8)
-                                .stroke(.white, lineWidth: 6)
-                        }
-                        .frame(width: 10, height: 10)
-                        .offset(x: 4, y: -4)
-                    
-                }
-                .contentShape(
-                    RoundedRectangle(cornerRadius: 16)
-                )
-                .padding(4)
-                .background {
-                    RoundedRectangle(cornerRadius: 16)
-                        .stroke(Gradient(colors: [Color.blue.opacity(0.5),
-                                                  Color.blue.opacity(0.8)
-                                                 ]), lineWidth: 2)
-                }
+            // Image(userChat.image)//пока лучше оставить
+            AsyncImage(url: URL(string: "https://picsum.photos/200/300")) { image in
+                image.image?.resizable().clipShape(RoundedRectangle(cornerRadius: 10))
+            }
+            .frame(width: 50, height: 50)
+            .overlay(alignment: .topTrailing) {
+                Circle()
+                    .foregroundStyle(userChat.onlineStatus == .online ? .green : .gray)
+                    .background {
+                        RoundedRectangle(cornerRadius: 8)
+                            .stroke(.white, lineWidth: 6)
+                    }
+                    .frame(width: 10, height: 10)
+                    .offset(x: 4, y: -4)
+            }
+            .padding(4)
+            .background {
+                RoundedRectangle(cornerRadius: 16)
+                    .stroke(Gradient(colors: [Color.blue.opacity(0.5),
+                                              Color.blue.opacity(0.8)
+                                             ]), lineWidth: 2)
+            }
             VStack(alignment: .leading, spacing: 8) {
                 Text(userChat.name)
                     .font(.body1)
