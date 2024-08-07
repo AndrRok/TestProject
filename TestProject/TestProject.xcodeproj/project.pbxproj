@@ -38,6 +38,7 @@
 		62D526692C42A976000EB77D /* SequenceHW11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D526682C42A976000EB77D /* SequenceHW11.swift */; };
 		62E0BF8F2C63B8360068D24A /* WBDS in Frameworks */ = {isa = PBXBuildFile; productRef = 62E0BF8E2C63B8360068D24A /* WBDS */; };
 		62E0BF912C63B86E0068D24A /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E0BF902C63B86E0068D24A /* ButtonStyles.swift */; };
+		62E0BF9A2C63BF300068D24A /* HW16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E0BF992C63BF300068D24A /* HW16.swift */; };
 		62E4E3F92C149BDD004A8AE0 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E4E3F82C149BDD004A8AE0 /* TabView.swift */; };
 		62E4E3FB2C14ACAA004A8AE0 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E4E3FA2C14ACAA004A8AE0 /* CustomTabView.swift */; };
 		62F3FAFE2C10DF8800F57B16 /* UserAgreementScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F3FAFD2C10DF8800F57B16 /* UserAgreementScreen.swift */; };
@@ -104,6 +105,7 @@
 		62D526682C42A976000EB77D /* SequenceHW11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceHW11.swift; sourceTree = "<group>"; };
 		62E0BF8D2C63B8210068D24A /* WBDS */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = WBDS; path = Modules/WBDS; sourceTree = "<group>"; };
 		62E0BF902C63B86E0068D24A /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		62E0BF992C63BF300068D24A /* HW16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW16.swift; sourceTree = "<group>"; };
 		62E4E3F82C149BDD004A8AE0 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		62E4E3FA2C14ACAA004A8AE0 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		62F3FAFD2C10DF8800F57B16 /* UserAgreementScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgreementScreen.swift; sourceTree = "<group>"; };
@@ -218,6 +220,7 @@
 		627AF5C62C2DD790000CBFEC /* 📚OtherHomeWorks */ = {
 			isa = PBXGroup;
 			children = (
+				62E0BF982C63BF250068D24A /* HW16 */,
 				62D526672C42A952000EB77D /* Sequence */,
 				62A0A40A2C24B99000D881B6 /* BankAccountsService */,
 				62A0A4102C24BDDC00D881B6 /* InterpolationAndOthers */,
@@ -296,6 +299,14 @@
 				62D526682C42A976000EB77D /* SequenceHW11.swift */,
 			);
 			path = Sequence;
+			sourceTree = "<group>";
+		};
+		62E0BF982C63BF250068D24A /* HW16 */ = {
+			isa = PBXGroup;
+			children = (
+				62E0BF992C63BF300068D24A /* HW16.swift */,
+			);
+			path = HW16;
 			sourceTree = "<group>";
 		};
 		62F3FAF92C10DDB000F57B16 /* ⛏️Resources */ = {
@@ -453,6 +464,7 @@
 				6213A6072C39DBDD005B72B9 /* InfiniteScrollView.swift in Sources */,
 				6219161F2C1394C300BAFB6D /* SearchBar.swift in Sources */,
 				62F3FB012C10E2F500F57B16 /* PhoneInputScreen.swift in Sources */,
+				62E0BF9A2C63BF300068D24A /* HW16.swift in Sources */,
 				62A0A40C2C24B9B300D881B6 /* BankConsoleLogic.swift in Sources */,
 				62E4E3FB2C14ACAA004A8AE0 /* CustomTabView.swift in Sources */,
 				6213A60B2C3BDEAB005B72B9 /* PinCodeTextField.swift in Sources */,
