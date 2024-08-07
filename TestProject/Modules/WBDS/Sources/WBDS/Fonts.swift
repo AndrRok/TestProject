@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension Font {
+public extension Font {
     //400 – Normal(Regular). 500 – Medium. 600 – Semi Bold (Demi Bold) 700 – Bold
     
     static let head2: Font = .system(size: 24, weight: .bold)

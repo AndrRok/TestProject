@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Foundation
+import WBDS
 
 struct SearchBar: View {
     let prompt: String

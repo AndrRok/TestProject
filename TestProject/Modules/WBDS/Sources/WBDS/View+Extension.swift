@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-typealias VoidClosure = () -> Void
-typealias BoolClosure = (Bool) -> Void
+public typealias VoidClosure = () -> Void
+public typealias BoolClosure = (Bool) -> Void
 
-extension View {
+public extension View {
     func hideKeyboard() {
         let resign = #selector(UIResponder.resignFirstResponder)
         UIApplication.shared.sendAction(resign, to: nil, from: nil, for: nil)
@@ -22,18 +22,18 @@ extension View {
     }
 }
 
-struct CornerRotateModifier: ViewModifier {
+public struct CornerRotateModifier: ViewModifier {
     let amount: Double
     let anchor: UnitPoint
     
-    func body(content: Content) -> some View {
+    public func body(content: Content) -> some View {
         content
             .rotationEffect(.degrees(amount), anchor: anchor)
             .clipped()
     }
 }
 
-extension AnyTransition {
+public extension AnyTransition {
     static var pivot: AnyTransition {
         .modifier(
             active: CornerRotateModifier(amount: -90, anchor: .topLeading),

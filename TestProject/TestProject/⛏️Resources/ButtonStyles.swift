@@ -5,9 +5,10 @@
 //  Created by ARMBP on 6/5/24.
 //
 
+import WBDS
 import SwiftUI
 
-struct WBButtonStyle: ButtonStyle {
+public struct WBButtonStyle: ButtonStyle {
     
     init(foregroundColor: Color = Color(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)),
          backgroundColor: Color = .customPurple
@@ -16,7 +17,7 @@ struct WBButtonStyle: ButtonStyle {
         self.backgroundColor = backgroundColor
     }
     
-    func makeBody(configuration: Configuration) -> some View {
+    public func makeBody(configuration: Configuration) -> some View {
         let fstColor: Color
         let secColor: Color
         if configuration.isPressed {
